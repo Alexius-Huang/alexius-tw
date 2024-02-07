@@ -1,0 +1,22 @@
+{
+    "tabWidth": 4,
+    "semi": true,
+    "useTabs": false,
+    "singleQuote": true,
+    "printWidth": 80,
+    "trailingComma": "none",
+    "overrides": [
+        {
+            "files": ["*.ts", "*.tsx"],
+            "options": {
+                "parser": "typescript"
+            }
+        },
+        {
+            "files": ["*.scss"],
+                "options": {
+                "parser": "scss"
+            }
+        }
+    ]
+}

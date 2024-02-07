@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+}
+
+$primary-color: #64ff00;
+
+:export {
+    primaryColor: $primary-color;
+}
